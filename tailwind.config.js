@@ -3,14 +3,23 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      sans: "Manrope",
+      sans: "Roboto Mono",
     },
     extend: {
       colors: {
-        background: "#3730a3",
-        textColor: "#ede9fe",
+        background: {
+          primary: "#1c1c22",
+          secondary: "#232229",
+        },
+        text: {
+          primary: "#e5e5e5",
+          dark: "#d4d4d4",
+          lightGreen: "#02FE9C",
+          darkGreen: "#57D09F",
+        },
         inputTextColor: "#1e1b4b",
       },
+
       animation: {
         "spin-slow": "spin 1.5s linear infinite",
       },
