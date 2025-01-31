@@ -2,6 +2,7 @@ import Heading from "../../ui/Heading";
 import Row from "../../ui/Row";
 import CardsList from "./CardsList";
 import EducationCard from "./EducationCard";
+import SkillsSection from "./SkillsSection";
 import TechCard from "./TechCard";
 
 function Presentation({ currentOption, resumeFields }) {
@@ -32,7 +33,7 @@ function Presentation({ currentOption, resumeFields }) {
           }}
         />
       )}
-      {fieldName === "Скіли" && <div>c</div>}
+      {fieldName === "Скіли" && <SkillsSection />}
       {fieldName === "Про мене" && <div>d</div>}
     </Row>
   );

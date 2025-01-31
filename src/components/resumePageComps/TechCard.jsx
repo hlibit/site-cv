@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Row from "../../ui/Row";
-import { div } from "motion/react-client";
 
 function TechCard({ item: { itemTitle, itemPhoto } }) {
   const [isOn, setIsOn] = useState(false);
