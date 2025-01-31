@@ -9,6 +9,10 @@ function Row({ className: userClasses, type = "vertical", children }) {
     return <div className={`flex items-center ${userClasses}`}>{children}</div>;
   if (type === "nav")
     return <nav className={`flex items-center ${userClasses}`}>{children}</nav>;
+  if (type === "ul")
+    return <ul className={`flex flex-col ${userClasses}`}>{children}</ul>;
+  if (type === "li")
+    return <li className={`flex items-center ${userClasses}`}>{children}</li>;
 }
 
 export default Row;

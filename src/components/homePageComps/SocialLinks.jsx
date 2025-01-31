@@ -12,10 +12,11 @@ function SocialLinks() {
     <Row type="horizontal" className="mt-10 gap-6">
       <Button
         type="outlined"
+        hover={true}
         onClick={() => moveByOuterLink("https://www.youtube.com/")}
       >
         <Row type="horizontal" className="gap-2">
-          Download CV
+          Завантажити CV
           <span>
             <HiOutlineDownload size={20} />
           </span>
@@ -24,12 +25,14 @@ function SocialLinks() {
       {/* Social Links */}
       <Button
         type="social"
+        hover={true}
         onClick={() => moveByOuterLink("https://github.com/hlibit")}
       >
         <FaGithub size={16} />
       </Button>
       <Button
         type="social"
+        hover={true}
         onClick={() =>
           moveByOuterLink("https://www.linkedin.com/in/kushii-hlib/")
         }
@@ -38,6 +41,7 @@ function SocialLinks() {
       </Button>
       <Button
         type="social"
+        hover={true}
         onClick={() =>
           moveByOuterLink(
             "https://www.instagram.com/kushd1et?igsh=a2JrdXZwNWNqdDJ2&utm_source=qr",
@@ -48,6 +52,7 @@ function SocialLinks() {
       </Button>
       <Button
         type="social"
+        hover={true}
         onClick={() => moveByOuterLink("https://t.me/hlibbb")}
       >
         <FaTelegramPlane size={16} />
