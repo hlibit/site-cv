@@ -8,7 +8,7 @@ const asObj = {
 };
 
 function Heading({ as, children }) {
-  if (as) return <div className={asObj[as]}>{children}</div>;
+  return <div className={asObj[as]}>{children}</div>;
 }
 
 export default Heading;

@@ -10,10 +10,9 @@ function Legend() {
       <Heading as="h0">
         <span className="text-text-lightGreen">Гліб Мазаєв</span>
       </Heading>
-      <div className="mt-6 max-w-[80%] text-sm font-light leading-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cupiditate
-        est voluptatem necessitatibus, ipsam consequuntur voluptatum alias magni
-        labore, expedita beatae voluptate ducimus iure!
+      <div className="mt-6 max-w-[90%] text-sm font-light leading-8">
+        Дуже вмотивований, відповідальний розробник, який прагне розвиватися та
+        створювати незабутні для користувачів інтерфейси!
       </div>
       <SocialLinks />
     </Row>

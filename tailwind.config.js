@@ -13,7 +13,7 @@ export default {
         },
         text: {
           primary: "#e5e5e5",
-          dark: "#d4d4d4",
+          dark: "#8E8D94",
           lightGreen: "#02FE9C",
           darkGreen: "#57D09F",
         },
