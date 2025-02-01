@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       sans: "Roboto Mono",
+      mono: "JetBrains Mono",
     },
     extend: {
       colors: {

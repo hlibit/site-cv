@@ -8,32 +8,32 @@ export const resumeFields = [
     data: [
       {
         itemYear: 2023,
-        itemTitle: "Fullstack Web Development",
+        itemTitle: "Fullstack Web1 Development",
         itemPlace: "Online Course",
       },
       {
         itemYear: 2023,
-        itemTitle: "Fullstack Web Development",
+        itemTitle: "Fullstack Web2 Development",
         itemPlace: "Online Course",
       },
       {
         itemYear: 2023,
-        itemTitle: "Fullstack Web Development",
+        itemTitle: "Fullstack Web3 Development",
         itemPlace: "Online Course",
       },
       {
         itemYear: 2023,
-        itemTitle: "Fullstack Web Development",
+        itemTitle: "Fullstack Web4 Development",
         itemPlace: "Online Course",
       },
       {
         itemYear: 2023,
-        itemTitle: "Fullstack Web Development",
+        itemTitle: "Fullstack Web5 Development",
         itemPlace: "Online Course",
       },
       {
         itemYear: 2023,
-        itemTitle: "Fullstack Web Development",
+        itemTitle: "Fullstack Web6 Development",
         itemPlace: "Online Course",
       },
     ],
@@ -54,16 +54,22 @@ export const resumeFields = [
     fieldName: "Скіли",
     title: "Скіли",
     description: "Основні навички, які я використовую у роботі.",
-    data: [
-      {
-        itemTitle: "Frontend",
-        itemDescription: "Адаптивна та доступна верстка",
-      },
-      { itemTitle: "Backend", itemDescription: "REST API, GraphQL" },
-      { itemTitle: "DevOps", itemDescription: "Docker, CI/CD, AWS" },
-      { itemTitle: "Тестування", itemDescription: "Jest, Cypress" },
-      { itemTitle: "Командна робота", itemDescription: "Agile, Scrum, Git" },
-    ],
+    data: {
+      soft: [
+        "Командна робота",
+        "Критичне мислення",
+        "Вирішення проблем",
+        "Адаптивність",
+        "Тайм-менеджмент",
+      ],
+      hard: [
+        "JavaScript (ES6+)",
+        "React & Next.js",
+        "Node.js & Express.js",
+        "MongoDB & PostgreSQL",
+        "Docker & CI/CD",
+      ],
+    },
   },
   {
     fieldName: "Про мене",
@@ -71,13 +77,28 @@ export const resumeFields = [
     description: "Коротко про мене та мою мотивацію.",
     data: [
       {
-        itemTitle: "Розробник, який любить код",
-        itemDescription:
-          "Мене звати [Ваше ім'я], я займаюся веб-розробкою та створенням сучасних застосунків. Люблю чистий код, ефективні рішення та постійний розвиток.",
+        itemLabel: "Ім'я",
+        itemValue: "Гліб Мазаєв",
       },
       {
-        itemTitle: "Досвід роботи",
-        itemDescription: "Розробка веб-застосунків, API та оптимізація UI/UX.",
+        itemLabel: "Вік",
+        itemValue: 23,
+      },
+      {
+        itemLabel: "Вивчаю IT",
+        itemValue: "2+ роки",
+      },
+      {
+        itemLabel: "Досвід роботи(IT)",
+        itemValue: "Був[Фріланс]",
+      },
+      {
+        itemLabel: "Громадянство",
+        itemValue: "Україна",
+      },
+      {
+        itemLabel: "Мови",
+        itemValue: "Англійська[B2], Українська, Німецька[А2]",
       },
     ],
   },

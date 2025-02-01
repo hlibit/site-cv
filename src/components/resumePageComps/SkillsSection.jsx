@@ -5,29 +5,29 @@ import SkillsList from "./SkillsList";
 import { FaFeather } from "react-icons/fa";
 import { GiMuscleUp } from "react-icons/gi";
 
-function SkillsSection() {
+function SkillsSection({ data: { soft, hard } }) {
   return (
     <Row type="horizontal" className="items-start">
       <div className="w-[50%]">
-        <Row type="horizontal" className="mb-6 justify-center gap-4">
+        <Row type="horizontal" className="mb-7 gap-4">
           <FaFeather size={20} className="text-text-darkGreen" />
           <Heading as="h3">Soft-Skills</Heading>
         </Row>
         <SkillsList>
-          {Array.from([1, 2, 3, 4]).map((skill) => {
-            return <SkillItem />;
+          {soft.map((skill) => {
+            return <SkillItem key={skill} skill={skill} />;
           })}
         </SkillsList>
       </div>
       <div className="w-[50%]">
-        <Row type="horizontal" className="mb-6 justify-center gap-4">
+        <Row type="horizontal" className="mb-7 gap-4">
           <GiMuscleUp size={20} className="text-text-darkGreen" />
           <Heading as="h3">Hard-Skills</Heading>
         </Row>
 
         <SkillsList>
-          {Array.from([1, 2, 3, 4]).map((skill) => {
-            return <SkillItem />;
+          {hard.map((skill) => {
+            return <SkillItem key={skill} skill={skill} />;
           })}
         </SkillsList>
       </div>

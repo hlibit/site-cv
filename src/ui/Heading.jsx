@@ -3,6 +3,7 @@ const asObj = {
   h1: "text-4xl font-bold",
   h2: "text-3xl font-semibold",
   h3: "text-2xl font-semibold",
+  h3Thin: "text-2xl font-lighter",
   h5: "text-xl font-medium",
   h6: "text-lg font-normal",
   h1Thin: "text-4xl font-normal",
