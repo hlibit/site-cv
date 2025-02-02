@@ -4,37 +4,23 @@ import { motion } from "motion/react";
 
 function MyPhotoSection() {
   return (
-    <Row type="horizontal" className="relative justify-center">
-      <AnimatedBox delay={0.4} className="mix-blend-lighten">
+    <Row
+      type="horizontal"
+      className="relative order-1 justify-center md:order-2"
+    >
+      <AnimatedBox
+        delay={0.4}
+        className="h-[288px] w-[288px] mix-blend-lighten md:h-[330px] md:w-[330px] lg:h-[386px] lg:w-[386px] xl:h-[426px] xl:w-[426px]"
+      >
         <img
-          className="h-[500px] rounded-full p-8 opacity-80"
+          className="h-full w-full rounded-full p-9 opacity-80"
           src="my_photo.png"
         />
       </AnimatedBox>
 
-      {/* <div
-        style={{
-          WebkitMask:
-            "radial-gradient(farthest-side, #0000 calc(100% - 7px), #000 0)",
-          mask: "radial-gradient(farthest-side, #0000 calc(100% - 7px), #000 0)",
-          background: `conic-gradient(
-      transparent 0deg, #02FE9C 5deg, transparent 35deg,
-      transparent 45deg, #02FE9C 50deg, transparent 80deg,
-      transparent 90deg, #02FE9C 95deg, transparent 125deg,
-      transparent 135deg, #02FE9C 140deg, transparent 170deg,
-      transparent 180deg, #02FE9C 185deg, transparent 215deg,
-      transparent 225deg, #02FE9C 230deg, transparent 260deg,
-      transparent 270deg, #02FE9C 275deg, transparent 305deg,
-      transparent 315deg, #02FE9C 320deg, transparent 350deg
-    )`,
-        }}
-        className="animate-spin-superSlow absolute h-[95%] w-[95%] rounded-full opacity-80"
-      ></div> */}
-
       <AnimatedBox delay={1} className="absolute">
         <motion.svg
-          width="500px"
-          height="490px"
+          className="h-[290px] w-[290px] md:h-[332px] md:w-[332px] lg:h-[388px] lg:w-[388px] xl:h-[428px] xl:w-[428px]"
           viewBox="0 0 506 506"
           fill="transparent"
         >

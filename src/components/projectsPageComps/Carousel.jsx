@@ -36,8 +36,8 @@ function Carousel({ currentIndex, setCurrentIndex }) {
   }
 
   return (
-    <div className="flex flex-col gap-7 md:w-[50%]">
-      <div className="mx-auto md:mx-0 md:ml-auto">
+    <div className="flex flex-col gap-7 md:w-[60%] lg:w-[50%]">
+      <div className="h-[290px] w-[290px] sm:h-[300px] sm:w-[300px] md:ml-auto lg:h-[340px] lg:w-[340px] xl:h-[418px] xl:w-[418px]">
         <img
           src={currentImageLink}
           className="h-auto w-full object-cover"

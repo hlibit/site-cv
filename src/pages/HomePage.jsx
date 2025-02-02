@@ -1,13 +1,12 @@
 import Legend from "../components/homePageComps/Legend";
 import MyPhotoSection from "../components/homePageComps/MyPhotoSection";
-import Row from "../ui/Row";
 
 function HomePage() {
   return (
-    <Row type="horizontal" className="flex-wrap justify-between text-white">
+    <main className="my-auto flex flex-col gap-12 text-white md:flex-row md:justify-between">
       <Legend />
       <MyPhotoSection />
-    </Row>
+    </main>
   );
 }
 

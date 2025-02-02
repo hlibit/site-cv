@@ -6,7 +6,7 @@ import AnimatedBox from "../ui/AnimatedBox";
 
 function ContactPage() {
   return (
-    <main className="mx-auto space-y-10 lg:mx-0 lg:flex lg:flex-wrap lg:justify-between lg:space-y-0">
+    <main className="mx-auto my-auto space-y-10 lg:mx-0 lg:flex lg:flex-wrap lg:justify-between lg:gap-4 lg:space-y-0">
       <AnimatedBox delay={0.5} className="mx-auto lg:mx-0">
         <ContactBlock
           label="Телефон"

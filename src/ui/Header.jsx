@@ -6,7 +6,7 @@ import { IoMdMenu } from "react-icons/io";
 function Header() {
   return (
     <header className="text-white">
-      <Row type="horizontal" className="justify-between">
+      <Row type="horizontal" className="mb-2 justify-between">
         <Drawer>
           <Logo />
 
