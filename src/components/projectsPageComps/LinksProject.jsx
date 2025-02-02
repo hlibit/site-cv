@@ -9,7 +9,7 @@ function LinksProject({ links: { github, site } }) {
   return (
     <Row
       type="horizontal"
-      className="mt-8 gap-5 border-t-[1px] border-text-dark pt-8"
+      className="mt-4 gap-5 border-t-[1px] border-text-dark pt-4 md:mt-8 md:pt-8"
     >
       {site && (
         <div className="relative">

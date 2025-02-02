@@ -1,17 +1,14 @@
 import { NavLink as RouterNavLink } from "react-router";
 
-function NavLink({ to, children }) {
-  //   function addActiveClasses(isActive) {
-  //     console.log(isActive);
-  //   }
+function NavLink({ to, onClick = undefined, children }) {
   return (
     <RouterNavLink
+      onClick={onClick}
       to={to}
-      //   className={({ isActive }) => addActiveClasses(isActive)}
       className={({ isActive }) =>
         isActive
-          ? "text-text-darkGreen border-text-darkGreen border-b-2 pb-2 transition-colors duration-500"
-          : "text-text-primary pb-2.5"
+          ? "border-b-2 border-text-darkGreen pb-2 text-text-darkGreen transition-colors duration-500"
+          : "pb-2.5 text-text-primary"
       }
     >
       {children}

@@ -6,8 +6,8 @@ function TechCard({ item: { itemTitle, itemPhoto } }) {
       <div className="relative">
         <Tip.Open id={itemTitle}>
           <div
-            onMouseEnter
-            onMouseLeave
+            onMouseEnter={() => {}}
+            onMouseLeave={() => {}}
             className="flex flex-col items-center gap-3 rounded-lg bg-background-secondary p-7 text-text-primary transition-colors hover:text-text-lightGreen hover:duration-300"
           >
             <div>{itemPhoto}</div>

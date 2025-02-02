@@ -1,13 +1,21 @@
 import NavLink from "./NavLink";
 import Row from "./Row";
 
-function NavBar() {
+function NavBar({ className: userClasses, onClick }) {
   return (
-    <Row className="gap-6 font-medium" type="nav">
-      <NavLink to="home">Головна</NavLink>
-      <NavLink to="resume">Резюме</NavLink>
-      <NavLink to="projects">Проєкти</NavLink>
-      <NavLink to="contact">Контакти</NavLink>
+    <Row className={"gap-6 font-medium " + userClasses} type="nav">
+      <NavLink onClick={onClick || undefined} to="home">
+        Головна
+      </NavLink>
+      <NavLink onClick={onClick || undefined} to="resume">
+        Резюме
+      </NavLink>
+      <NavLink onClick={onClick || undefined} to="projects">
+        Проєкти
+      </NavLink>
+      <NavLink onClick={onClick || undefined} to="contact">
+        Контакти
+      </NavLink>
     </Row>
   );
 }

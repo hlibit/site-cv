@@ -36,13 +36,15 @@ function Carousel({ currentIndex, setCurrentIndex }) {
   }
 
   return (
-    <div className="ml-auto space-y-6">
-      <img
-        src={currentImageLink}
-        className="h-[400px] w-[500px]"
-        alt={`Project ${currentIndex + 1} Image`}
-      />
-      <div className="float-right space-x-3">
+    <div className="flex flex-col gap-7 md:w-[50%]">
+      <div className="mx-auto md:mx-0 md:ml-auto">
+        <img
+          src={currentImageLink}
+          className="h-auto w-full object-cover"
+          alt={`Project ${currentIndex + 1} Image`}
+        />
+      </div>
+      <div className="ml-auto space-x-3">
         <ButtonCarousel disabled={disabledPrev} onClick={handlePrevSlide}>
           <MdArrowBackIosNew size={24} />
         </ButtonCarousel>

@@ -5,10 +5,10 @@ const hoverStyles =
 
 function ContactBlock({ image, href, label, children }) {
   return (
-    <Row type="horizontal" className="gap-6 px-3 outline-2">
+    <Row type="horizontal" className="gap-6">
       <Row
         type="horizontal"
-        className="h-20 w-20 justify-center rounded-md bg-background-secondary text-text-darkGreen"
+        className="h-12 w-12 justify-center rounded-md bg-background-secondary text-text-darkGreen sm:h-20 sm:w-20"
       >
         {image}
       </Row>

@@ -3,11 +3,9 @@ import Header from "../ui/Header";
 
 function AppLayout() {
   return (
-    <div className="grid-row-[auto_1fr] grid min-h-[100dvh] grid-cols-1 bg-background-primary px-[20%] py-14">
+    <div className="grid-row-[auto_1fr] grid min-h-[100dvh] grid-cols-1 bg-background-primary px-5 py-5 sm:px-[10%] md:py-14 lg:px-[13%] xl:px-[20%]">
       <Header />
-      <main className="mt-5">
-        <Outlet />
-      </main>
+      <Outlet />
     </div>
   );
 }

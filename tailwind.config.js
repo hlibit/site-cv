@@ -20,6 +20,13 @@ export default {
         },
         inputTextColor: "#1e1b4b",
       },
+      screens: {
+        xs: "0",
+        sm: "550px",
+        md: "720px",
+        lg: "960px",
+        xl: "1200px",
+      },
 
       animation: {
         "spin-slow": "spin 1.5s linear infinite",
