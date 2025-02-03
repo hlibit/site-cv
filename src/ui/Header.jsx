@@ -5,7 +5,7 @@ import Row from "./Row";
 import { IoMdMenu } from "react-icons/io";
 function Header() {
   return (
-    <header className="text-white">
+    <header className="w-full max-w-[1000px] text-white">
       <Row type="horizontal" className="mb-2 justify-between">
         <Drawer>
           <Logo />

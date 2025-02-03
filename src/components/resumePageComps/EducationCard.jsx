@@ -6,7 +6,7 @@ function EducationCard({ item }) {
   return (
     <Row
       type="vertical"
-      className="gap-3 rounded-lg border-[0.5px] border-transparent bg-background-secondary p-7 transition-colors hover:border-[0.5px] hover:border-text-darkGreen hover:duration-300"
+      className="gap-3 rounded-lg border-[0.5px] border-transparent bg-background-secondary p-7 text-left transition-colors hover:border-[0.5px] hover:border-text-darkGreen hover:duration-300"
     >
       <span className="text-sm text-text-lightGreen">{item.itemYear}</span>
       <Heading as="h4">{item.itemTitle}</Heading>

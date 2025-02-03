@@ -13,7 +13,7 @@ function Presentation({ currentOption, resumeFields }) {
   return (
     <Row
       type="vertical"
-      className="max-h-[100%] max-w-[calc(70%-64px)] flex-grow gap-12"
+      className="flex-grow gap-12 text-center md:text-left lg:h-[470px]"
     >
       <Heading as="h1Thin">{title}</Heading>
       <div className="max-w-md text-text-dark">{description}</div>
@@ -21,7 +21,7 @@ function Presentation({ currentOption, resumeFields }) {
       {fieldName === "Освіта" && (
         <CardsList
           data={data}
-          gridCols="grid-cols-2"
+          className="grid-cols-1 lg:grid-cols-2"
           render={(item) => {
             return <EducationCard key={item.itemTitle} item={item} />;
           }}
@@ -31,7 +31,7 @@ function Presentation({ currentOption, resumeFields }) {
       {fieldName === "Технології" && (
         <CardsList
           data={data}
-          gridCols="grid-cols-4"
+          className="grid-cols-2 lg:grid-cols-4"
           render={(item) => {
             return <TechCard key={item.itemTitle} item={item} />;
           }}

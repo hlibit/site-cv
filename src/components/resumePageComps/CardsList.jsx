@@ -1,6 +1,8 @@
-function CardsList({ data, gridCols, render }) {
+function CardsList({ data, className: userClass, render }) {
   return (
-    <div className={`grid ${gridCols} gap-3 overflow-auto`}>
+    <div
+      className={`grid ${userClass || ""} h-[300px] gap-3 overflow-auto lg:h-auto`}
+    >
       {data.map(render)}
     </div>
   );

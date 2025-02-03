@@ -9,8 +9,8 @@ function ResumePage() {
   const [currentOption, setCurrentOption] = useState("Освіта");
 
   return (
-    <div className="flex h-[470px] items-start gap-16">
-      <Row type="vertical" className="max-w-[30%] gap-10">
+    <div className="container mt-8 flex w-full max-w-[1000px] flex-col gap-8 md:my-auto md:flex-row md:items-start xl:gap-16">
+      <Row type="vertical" className="gap-10 text-center md:text-left">
         <Heading as="h1Thin">Чому саме я?</Heading>
         <div className="max-w-md text-text-dark">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.

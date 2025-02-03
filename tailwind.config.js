@@ -21,9 +21,9 @@ export default {
         inputTextColor: "#1e1b4b",
       },
       screens: {
-        xs: "0",
+        xs: "0px",
         sm: "550px",
-        md: "720px",
+        md: "768px",
         lg: "960px",
         xl: "1200px",
       },

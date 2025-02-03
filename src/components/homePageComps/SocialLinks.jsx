@@ -9,7 +9,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 function SocialLinks() {
   return (
-    <Row type="horizontal" className="mt-10 gap-6">
+    <div className="mt-10 flex flex-col gap-6 lg:flex-row">
       <Button
         type="outlined"
         hover={true}
@@ -23,41 +23,43 @@ function SocialLinks() {
         </Row>
       </Button>
       {/* Social Links */}
-      <Button
-        type="social"
-        hover={true}
-        onClick={() => moveByOuterLink("https://github.com/hlibit")}
-      >
-        <FaGithub size={16} />
-      </Button>
-      <Button
-        type="social"
-        hover={true}
-        onClick={() =>
-          moveByOuterLink("https://www.linkedin.com/in/kushii-hlib/")
-        }
-      >
-        <FaLinkedinIn size={16} />
-      </Button>
-      <Button
-        type="social"
-        hover={true}
-        onClick={() =>
-          moveByOuterLink(
-            "https://www.instagram.com/kushd1et?igsh=a2JrdXZwNWNqdDJ2&utm_source=qr",
-          )
-        }
-      >
-        <FaInstagram size={16} />
-      </Button>
-      <Button
-        type="social"
-        hover={true}
-        onClick={() => moveByOuterLink("https://t.me/hlibbb")}
-      >
-        <FaTelegramPlane size={16} />
-      </Button>
-    </Row>
+      <Row type="horizontal" className="gap-6">
+        <Button
+          type="social"
+          hover={true}
+          onClick={() => moveByOuterLink("https://github.com/hlibit")}
+        >
+          <FaGithub size={16} />
+        </Button>
+        <Button
+          type="social"
+          hover={true}
+          onClick={() =>
+            moveByOuterLink("https://www.linkedin.com/in/kushii-hlib/")
+          }
+        >
+          <FaLinkedinIn size={16} />
+        </Button>
+        <Button
+          type="social"
+          hover={true}
+          onClick={() =>
+            moveByOuterLink(
+              "https://www.instagram.com/kushd1et?igsh=a2JrdXZwNWNqdDJ2&utm_source=qr",
+            )
+          }
+        >
+          <FaInstagram size={16} />
+        </Button>
+        <Button
+          type="social"
+          hover={true}
+          onClick={() => moveByOuterLink("https://t.me/hlibbb")}
+        >
+          <FaTelegramPlane size={16} />
+        </Button>
+      </Row>
+    </div>
   );
 }
 

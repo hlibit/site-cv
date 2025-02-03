@@ -3,7 +3,7 @@ import ResumeOption from "./ResumeOption";
 
 function OptionsList({ resumeFields, ...props }) {
   return (
-    <Row type="ul" className="gap-6">
+    <Row type="ul" className="mx-auto max-w-[380px] gap-6 md:mx-0">
       {resumeFields.map((field) => {
         return (
           <ResumeOption
