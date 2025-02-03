@@ -1,5 +1,5 @@
 import Heading from "../../ui/Heading";
-import Row from "../../ui/Row";
+
 import AboutMeSection from "./AboutMeSection";
 import CardsList from "./CardsList";
 import EducationCard from "./EducationCard";
@@ -11,17 +11,16 @@ function Presentation({ currentOption, resumeFields }) {
   const { title, description, fieldName, data } = field;
 
   return (
-    <Row
-      type="vertical"
-      className="flex-grow gap-12 text-center md:text-left lg:h-[470px]"
-    >
+    <div className="flex h-full flex-grow flex-col gap-10 text-center md:text-left">
       <Heading as="h1Thin">{title}</Heading>
-      <div className="max-w-md text-text-dark">{description}</div>
+      <div className="mx-auto max-w-[80%] text-text-dark md:mx-0">
+        {description}
+      </div>
 
       {fieldName === "Освіта" && (
         <CardsList
           data={data}
-          className="grid-cols-1 lg:grid-cols-2"
+          className="mx-auto mt-auto max-w-full grid-cols-1 md:mx-0 lg:grid-cols-2"
           render={(item) => {
             return <EducationCard key={item.itemTitle} item={item} />;
           }}
@@ -31,7 +30,7 @@ function Presentation({ currentOption, resumeFields }) {
       {fieldName === "Технології" && (
         <CardsList
           data={data}
-          className="grid-cols-2 lg:grid-cols-4"
+          className="mx-auto mt-auto max-w-full grid-cols-2 md:mx-0 lg:grid-cols-4"
           render={(item) => {
             return <TechCard key={item.itemTitle} item={item} />;
           }}
@@ -39,7 +38,7 @@ function Presentation({ currentOption, resumeFields }) {
       )}
       {fieldName === "Скіли" && <SkillsSection data={data} />}
       {fieldName === "Про мене" && <AboutMeSection data={data} />}
-    </Row>
+    </div>
   );
 }
 

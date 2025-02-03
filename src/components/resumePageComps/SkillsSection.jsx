@@ -7,8 +7,8 @@ import { GiMuscleUp } from "react-icons/gi";
 
 function SkillsSection({ data: { soft, hard } }) {
   return (
-    <Row type="horizontal" className="items-start">
-      <div className="w-[50%]">
+    <div className="mt-4 flex flex-col gap-10 overflow-auto md:flex-row md:gap-4">
+      <div className="mx-auto md:w-[50%]">
         <Row type="horizontal" className="mb-7 gap-4">
           <FaFeather size={20} className="text-text-darkGreen" />
           <Heading as="h3">Soft-Skills</Heading>
@@ -19,7 +19,7 @@ function SkillsSection({ data: { soft, hard } }) {
           })}
         </SkillsList>
       </div>
-      <div className="w-[50%]">
+      <div className="mx-auto md:w-[50%]">
         <Row type="horizontal" className="mb-7 gap-4">
           <GiMuscleUp size={20} className="text-text-darkGreen" />
           <Heading as="h3">Hard-Skills</Heading>
@@ -31,7 +31,7 @@ function SkillsSection({ data: { soft, hard } }) {
           })}
         </SkillsList>
       </div>
-    </Row>
+    </div>
   );
 }
 

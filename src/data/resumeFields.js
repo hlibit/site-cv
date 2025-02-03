@@ -89,7 +89,7 @@ export const resumeFields = [
         itemValue: "2+ роки",
       },
       {
-        itemLabel: "Досвід роботи(IT)",
+        itemLabel: "Досвід в (IT)",
         itemValue: "Був[Фріланс]",
       },
       {

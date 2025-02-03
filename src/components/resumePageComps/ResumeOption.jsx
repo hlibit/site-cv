@@ -5,7 +5,7 @@ function ResumeOption({ option, currentOption, setCurrentOption }) {
   const isActive = currentOption === option;
 
   return (
-    <li className="w-[380px] text-center md:w-[300px] xl:w-[380px]">
+    <li className="text-center">
       <AnimatedBox delay={createRandomDelay()}>
         <div
           onClick={() => setCurrentOption(option)}

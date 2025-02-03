@@ -36,11 +36,11 @@ function Carousel({ currentIndex, setCurrentIndex }) {
   }
 
   return (
-    <div className="flex flex-col gap-7 md:w-[60%] lg:w-[50%]">
-      <div className="h-[290px] w-[290px] sm:h-[300px] sm:w-[300px] md:ml-auto lg:h-[340px] lg:w-[340px] xl:h-[418px] xl:w-[418px]">
+    <div className="flex w-max flex-col items-center gap-7 md:w-[60%] lg:w-[50%]">
+      <div className="ml-0 h-[290px] w-[290px] sm:h-[360px] sm:w-[360px] md:ml-auto md:h-[340px] md:w-[340px] lg:h-[370px] lg:w-[370px] xl:h-[400px] xl:w-[400px]">
         <img
           src={currentImageLink}
-          className="h-auto w-full object-cover"
+          className="object-cover"
           alt={`Project ${currentIndex + 1} Image`}
         />
       </div>

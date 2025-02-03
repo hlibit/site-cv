@@ -1,15 +1,15 @@
 const types = {
-  outlined: "rounded-3xl px-7 py-3 text-text-darkGreen",
-  social: "rounded-full p-2 text-text-darkGreen",
+  outlined: "rounded-3xl px-7 py-3 text-text-darkGreen border-[0.5px]",
+  social: "rounded-full p-2 text-text-darkGreen border-[0.5px]",
   contained:
-    "rounded-full cursor-pointer bg-background-secondary text-text-primary p-4 border-background-secondary",
+    "rounded-full cursor-pointer bg-background-secondary text-text-primary p-4 border-background-secondary ",
 };
 
 const hoverQuery =
   "hover:duration-300 hover:text-background-primary hover:bg-text-darkGreen";
 
 const baseQuery =
-  "border-[0.5px] cursor-pointer border-text-darkGreen text-xs font-semibold uppercase tracking-widest transition-colors";
+  "cursor-pointer border-text-darkGreen text-xs font-semibold uppercase tracking-widest transition-colors";
 
 function Button({
   type,
