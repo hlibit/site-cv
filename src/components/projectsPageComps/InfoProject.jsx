@@ -10,10 +10,10 @@ function InfoProject({ currentIndex }) {
     projectsData[currentIndex];
 
   return (
-    <div className="sm:w-[80%] md:w-[50%] lg:w-[50%]">
+    <div className="sm:w-[80%] md:w-[50%] lg:w-[40%]">
       <Row className="gap-2 md:gap-4 lg:gap-7">
         <div
-          className="font-mono text-6xl font-extrabold leading-none tracking-tight text-transparent md:text-8xl"
+          className="font-mono text-6xl font-extrabold leading-none tracking-tight text-transparent lg:text-8xl"
           style={{
             WebkitTextStroke: "1px white",
           }}

@@ -36,8 +36,8 @@ function Carousel({ currentIndex, setCurrentIndex }) {
   }
 
   return (
-    <div className="flex w-max flex-col items-center gap-7 md:w-[60%] lg:w-[50%]">
-      <div className="ml-0 h-[290px] w-[290px] sm:h-[360px] sm:w-[360px] md:ml-auto md:h-[340px] md:w-[340px] lg:h-[370px] lg:w-[370px] xl:h-[400px] xl:w-[400px]">
+    <div className="my-auto flex w-full flex-col items-center gap-4 sm:w-[80%] md:w-[50%] lg:w-[60%]">
+      <div className="ml-0 w-full">
         <img
           src={currentImageLink}
           className="object-cover"
@@ -55,6 +55,18 @@ function Carousel({ currentIndex, setCurrentIndex }) {
       </div>
     </div>
   );
+
+  // return (
+  //   <div className="h-[460px] w-[50%] bg-white">
+  //     <div className="ml-0 flex h-[290px] w-[290px] sm:h-[360px] sm:w-[360px] md:ml-auto md:h-[340px] md:w-[340px] lg:h-[470px] lg:w-[470px] xl:h-[400px] xl:w-[400px]">
+  //       <img
+  //         src={currentImageLink}
+  //         className="object-contain"
+  //         alt={`Project ${currentIndex + 1} Image`}
+  //       />
+  //     </div>
+  //   </div>
+  // );
 }
 
 export default Carousel;
