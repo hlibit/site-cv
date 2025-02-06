@@ -13,7 +13,7 @@ function MyPhotoSection() {
         className="h-[288px] w-[288px] mix-blend-lighten sm:h-[310px] sm:w-[310px] md:h-[330px] md:w-[330px] lg:h-[386px] lg:w-[386px] xl:h-[426px] xl:w-[426px]"
       >
         <img
-          className="h-full w-full rounded-full p-9 opacity-80"
+          className="h-full w-full rounded-full p-2 opacity-75"
           src="my_photo.png"
         />
       </AnimatedBox>
