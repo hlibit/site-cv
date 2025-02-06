@@ -26,9 +26,10 @@ export const projectsData = [
     techStack: "html,css,js",
     links: { github: "10123", site: "20" },
     images: [
-      "https://farm9.staticflickr.com/8410/30193245810_7b7ff74cd5.jpg",
-      "https://www.pandasinternational.org/wp-content/uploads/2020/01/%E7%84%B6%E7%84%B6%EF%BC%88Ran-Ran-3-500x500.jpg",
-      "https://dspncdn.com/a1/media/692x/31/5a/c9/315ac92e8f0ed5031ae5f9a0b8aa15a7.jpg",
+      "photosProjects/training_1.webp",
+      "photosProjects/training_2.webp",
+      "photosProjects/training_3.webp",
+      "photosProjects/training_4.webp",
     ],
   },
   {
@@ -38,8 +39,10 @@ export const projectsData = [
     techStack: "html,css,js",
     links: { github: "", site: "20" },
     images: [
-      "https://farm5.staticflickr.com/4404/36289482971_a3a77b523c.jpg",
-      "https://farm5.staticflickr.com/4038/4522506244_f9cb4ccf52.jpg",
+      "photosProjects/booking_1.webp",
+      "photosProjects/booking_2.webp",
+      "photosProjects/booking_3.webp",
+      "photosProjects/booking_4.webp",
     ],
   },
 ];
