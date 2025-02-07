@@ -3,6 +3,7 @@ import Heading from "../../ui/Heading";
 import Row from "../../ui/Row";
 import { niceNumber } from "../../utils/helpers";
 import LinksProject from "./LinksProject";
+import AnimatedBox from "../../ui/AnimatedBox";
 
 function InfoProject({ currentIndex }) {
   const numOfProject = niceNumber(currentIndex);
@@ -10,7 +11,7 @@ function InfoProject({ currentIndex }) {
     projectsData[currentIndex];
 
   return (
-    <div className="sm:w-[90%] md:w-[50%] lg:w-[40%]">
+    <AnimatedBox delay={0.6} className="sm:w-[90%] md:w-[50%] lg:w-[40%]">
       <Row className="gap-2 md:gap-4 lg:gap-4">
         <div
           className="font-mono text-6xl font-extrabold leading-none tracking-tight text-transparent lg:text-7xl"
@@ -30,7 +31,7 @@ function InfoProject({ currentIndex }) {
         </div>
       </Row>
       <LinksProject links={links} />
-    </div>
+    </AnimatedBox>
   );
 }
 

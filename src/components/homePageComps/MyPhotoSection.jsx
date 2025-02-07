@@ -10,7 +10,7 @@ function MyPhotoSection() {
     >
       <AnimatedBox
         delay={0.4}
-        className="h-[288px] w-[288px] mix-blend-lighten sm:h-[310px] sm:w-[310px] md:h-[330px] md:w-[330px] lg:h-[386px] lg:w-[386px] xl:h-[426px] xl:w-[426px]"
+        className="h-[288px] w-[288px] mix-blend-lighten sm:h-[310px] sm:w-[310px] md:h-[345px] md:w-[345px] lg:h-[386px] lg:w-[386px] xl:h-[426px] xl:w-[426px]"
       >
         <img
           className="h-full w-full rounded-full p-2 opacity-75"
@@ -20,7 +20,7 @@ function MyPhotoSection() {
 
       <AnimatedBox delay={1} className="absolute">
         <motion.svg
-          className="h-[290px] w-[290px] sm:h-[312px] sm:w-[312px] md:h-[332px] md:w-[332px] lg:h-[388px] lg:w-[388px] xl:h-[428px] xl:w-[428px]"
+          className="h-[290px] w-[290px] sm:h-[312px] sm:w-[312px] md:h-[347px] md:w-[347px] lg:h-[388px] lg:w-[388px] xl:h-[428px] xl:w-[428px]"
           viewBox="0 0 506 506"
           fill="transparent"
         >

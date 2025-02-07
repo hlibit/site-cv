@@ -15,7 +15,7 @@ function ResumePage() {
         className="h-full max-w-full gap-10 text-center md:max-w-[40%] md:text-left lg:max-w-[30%]"
       >
         <Heading as="h1Thin">Чому саме я?</Heading>
-        <div className="mx-auto mb-auto max-w-[80%] text-text-dark md:mx-0 lg:max-w-full">
+        <div className="mx-auto mb-auto max-w-[80%] text-text-dark md:mx-0 md:max-w-full">
           Я відданий розробці, що є моєю пристрастю, якій я присвячую кожен
           день. Саме я є відповідальною "опорою" та невід'ємною частиною
           команди!

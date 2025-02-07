@@ -9,7 +9,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 function SocialLinks() {
   return (
-    <div className="mt-10 flex flex-col gap-6 lg:flex-row">
+    <div className="mt-8 flex flex-col gap-6 md:mt-4 lg:mt-7 lg:flex-row xl:mt-8">
       <Button
         type="outlined"
         hover={true}

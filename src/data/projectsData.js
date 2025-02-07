@@ -3,7 +3,7 @@ export const projectsData = [
     projectName: "React Pizza",
     description:
       "Проєкт для замовлення піци онлайн. Функціонал: Додавання піци в кошик, розрахунок вартості, перегляд замовлення по ID, геопозиція...",
-    techStack: "HTML,Tailwind CSS, React.js,Redux, React Router ",
+    techStack: "HTML,Tailwind CSS, React.js,Redux,React Router ",
     links: { github: "https://github.com/hlibit/pizza-proj-react", site: "" },
     images: ["photosProjects/pizza_1.webp", "photosProjects/pizza_2.webp"],
   },
@@ -26,7 +26,7 @@ export const projectsData = [
     projectName: "Training App",
     description:
       "Мій перший проєкт. Функціонал: створення/редагування профілю, тренер-створення/відміна/закінчення тренування, спортсмен-прийняття/відміна тренування, зміна теми, зміна паролю, історія тренувань...",
-    techStack: "HTML,CSS,MUI,React.js,React Router,Express.js,MongoDb",
+    techStack: `HTML, CSS, MUI, React.js, React Router, MongoDb`,
     links: { github: "https://github.com/hlibit/training-site" },
     images: [
       "photosProjects/training_1.webp",
@@ -37,9 +37,10 @@ export const projectsData = [
   },
   {
     projectName: "Booking App",
-    description: "Проєкт для букінгу номерів.",
+    description:
+      "Проєкт для букінгу номерів. Функціонал:додавання,редагування, видалення номерів,букінгів,песоналу, зміна теми, дешбоард-статистика, аутентифікація.",
     techStack:
-      "HTML,Styled Components, React.js,React Router,React Query,React Hook Forms,supabase,recharts",
+      "HTML, Styled Components, React.js, React Router, React Query, React Hook Forms, supabase, recharts",
     links: { github: "https://github.com/hlibit/the-wild-oasis" },
     images: [
       "photosProjects/booking_1.webp",

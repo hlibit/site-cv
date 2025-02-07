@@ -15,7 +15,7 @@ function Legend() {
       <div className="text-5xl font-normal text-text-lightGreen lg:text-6xl xl:text-7xl">
         Гліб Мазаєв
       </div>
-      <div className="mt-6 text-sm font-light leading-8 md:max-w-[90%] lg:text-base">
+      <div className="mt-6 text-sm font-light leading-8 sm:max-w-[90%] md:mt-3 md:leading-6 lg:mt-5 lg:text-base lg:leading-8">
         Вмотивований, відповідальний розробник, який прагне розвиватися та
         створювати для користувачів незабутні веб-сторінки і застосунки!
       </div>
