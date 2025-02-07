@@ -10,10 +10,10 @@ function InfoProject({ currentIndex }) {
     projectsData[currentIndex];
 
   return (
-    <div className="sm:w-[80%] md:w-[50%] lg:w-[40%]">
-      <Row className="gap-2 md:gap-4 lg:gap-7">
+    <div className="sm:w-[90%] md:w-[50%] lg:w-[40%]">
+      <Row className="gap-2 md:gap-4 lg:gap-4">
         <div
-          className="font-mono text-6xl font-extrabold leading-none tracking-tight text-transparent lg:text-8xl"
+          className="font-mono text-6xl font-extrabold leading-none tracking-tight text-transparent lg:text-7xl"
           style={{
             WebkitTextStroke: "1px white",
           }}
@@ -22,12 +22,12 @@ function InfoProject({ currentIndex }) {
         </div>
 
         <Heading as="h1">{projectName}</Heading>
-        <div className="text-sm font-normal leading-8 tracking-wider text-text-dark">
+        <div className="text-sm font-normal leading-6 tracking-wider text-text-dark">
           {description}
         </div>
-        <Heading as="h3Thin">
-          <span className="text-text-darkGreen">{techStack}</span>
-        </Heading>
+        <div className="font-lighter max-h-[96px] overflow-auto text-xl text-text-darkGreen lg:text-2xl">
+          {techStack}
+        </div>
       </Row>
       <LinksProject links={links} />
     </div>

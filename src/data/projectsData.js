@@ -2,17 +2,20 @@ export const projectsData = [
   {
     projectName: "React Pizza",
     description:
-      "        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit adipisci amet",
-    techStack: "html,css,js",
+      "Проєкт для замовлення піци онлайн. Функціонал: Додавання піци в кошик, розрахунок вартості, перегляд замовлення по ID, геопозиція...",
+    techStack: "HTML,Tailwind CSS, React.js,Redux, React Router ",
     links: { github: "https://github.com/hlibit/pizza-proj-react", site: "" },
     images: ["photosProjects/pizza_1.webp", "photosProjects/pizza_2.webp"],
   },
   {
     projectName: "Mini Hotel",
     description:
-      "        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit adipisci amet",
-    techStack: "html,css,js",
-    links: { github: "", site: "20" },
+      "Комерційний проєкт веб-сайта для міні-готелю. Функціонал: огляд послуг,номерів та цін міні-готелю, зміна теми та мови, галерея з функцією збільшити фото, підйом на верх сторінки  по натисканню кнопки...",
+    techStack: "HTML,CSS,React.js,React Router,MUI",
+    links: {
+      privateGithub: true,
+      site: "https://harmony-hotel.kyiv.ua/",
+    },
     images: [
       "photosProjects/hotel_1.webp",
       "photosProjects/hotel_2.webp",
@@ -22,9 +25,9 @@ export const projectsData = [
   {
     projectName: "Training App",
     description:
-      "        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit adipisci amet",
-    techStack: "html,css,js",
-    links: { github: "10123", site: "20" },
+      "Мій перший проєкт. Функціонал: створення/редагування профілю, тренер-створення/відміна/закінчення тренування, спортсмен-прийняття/відміна тренування, зміна теми, зміна паролю, історія тренувань...",
+    techStack: "HTML,CSS,MUI,React.js,React Router,Express.js,MongoDb",
+    links: { github: "https://github.com/hlibit/training-site" },
     images: [
       "photosProjects/training_1.webp",
       "photosProjects/training_2.webp",
@@ -34,10 +37,10 @@ export const projectsData = [
   },
   {
     projectName: "Booking App",
-    description:
-      "        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit adipisci amet",
-    techStack: "html,css,js",
-    links: { github: "", site: "20" },
+    description: "Проєкт для букінгу номерів.",
+    techStack:
+      "HTML,Styled Components, React.js,React Router,React Query,React Hook Forms,supabase,recharts",
+    links: { github: "https://github.com/hlibit/the-wild-oasis" },
     images: [
       "photosProjects/booking_1.webp",
       "photosProjects/booking_2.webp",

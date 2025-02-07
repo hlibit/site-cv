@@ -17,6 +17,7 @@ function Button({
   hover,
   onMouseEnter,
   onMouseLeave,
+  className: userClassName = "",
   children,
 }) {
   if (onMouseEnter && onMouseLeave)
@@ -26,7 +27,12 @@ function Button({
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
         className={
-          baseQuery + " " + types[type] + " " + (hover ? hoverQuery : "")
+          baseQuery +
+          " " +
+          types[type] +
+          " " +
+          (hover ? hoverQuery : "") +
+          userClassName
         }
       >
         {children}

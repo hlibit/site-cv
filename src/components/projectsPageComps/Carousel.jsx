@@ -36,7 +36,7 @@ function Carousel({ currentIndex, setCurrentIndex }) {
   }
 
   return (
-    <div className="my-auto flex w-full flex-col items-center gap-4 sm:w-[80%] md:w-[50%] lg:w-[60%]">
+    <div className="my-auto flex w-full flex-col items-center gap-4 sm:w-[90%] md:w-[50%] lg:my-0 lg:w-[60%]">
       <div className="ml-0 w-full">
         <img
           src={currentImageLink}
